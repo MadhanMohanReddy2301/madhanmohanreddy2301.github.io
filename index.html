@@ -8,32 +8,28 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
+            background-color: #f0f0f0;
             padding: 20px;
+            margin: 0;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
+        h1, h2, h3 {
             text-align: center;
-        }
-        h2 {
-            margin-top: 30px;
+            color: #333333;
         }
         .contact-info {
             margin-bottom: 20px;
+            text-align: center;
         }
-        .project {
-            margin-bottom: 30px;
-            padding: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .project h3 {
-            margin-top: 0;
-        }
-        .project p {
-            margin-bottom: 10px;
+        .contact-info p {
+            margin: 5px 0;
         }
         .social-links {
             margin-top: 20px;
@@ -44,6 +40,45 @@
             margin: 0 10px;
             color: #007bff;
             text-decoration: none;
+        }
+        .section-heading {
+            margin-top: 30px;
+            border-bottom: 2px solid #cccccc;
+            padding-bottom: 10px;
+        }
+        .section-content {
+            margin-top: 20px;
+        }
+        .project {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .project p {
+            margin-bottom: 10px;
+        }
+        .job {
+            margin-bottom: 30px;
+        }
+        .job h3 {
+            margin-top: 0;
+        }
+        .job ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .education {
+            margin-bottom: 30px;
+        }
+        .education h3 {
+            margin-top: 0;
+        }
+        .education p {
+            margin-bottom: 5px;
         }
     </style>
 </head>
@@ -57,14 +92,18 @@
             </div>
         </header>
 
-        <section>
+        <section class="section-heading">
             <h2>Professional Summary</h2>
+        </section>
+        <section class="section-content">
             <p>Passionate about AI/ML technologies with over 2.8 years of experience in software development. Currently pursuing a PG in Machine Learning and Artificial Intelligence from IIIT Bangalore, aiming to transition into a Data Science role. Skilled in building strong application logic, leveraging generative AI for creative solutions, and extracting insights from complex datasets. Committed to continuous learning and innovation.</p>
             <p>Check out my own GPT: <a href="https://linktoyourgpt">AIO-GPT</a></p>
         </section>
 
-        <section>
+        <section class="section-heading">
             <h2>Skills</h2>
+        </section>
+        <section class="section-content">
             <ul>
                 <li>Data Science: Numpy, Pandas, Matplotlib, Data Cleaning, Data Analysis</li>
                 <li>AI/ML: Deep Learning, NLP, Generative AI, LLMs, Vector Databases, RAG, Regression Models, OpenCV</li>
@@ -73,8 +112,10 @@
             </ul>
         </section>
 
-        <section>
+        <section class="section-heading">
             <h2>Work Experience</h2>
+        </section>
+        <section class="section-content">
             <div class="job">
                 <h3>Software Engineer at FIS GLOBAL (Fidelity Information Services) - Bangalore</h3>
                 <p>Oct 2022 - Present</p>
@@ -95,8 +136,10 @@
             </div>
         </section>
 
-        <section>
+        <section class="section-heading">
             <h2>Education</h2>
+        </section>
+        <section class="section-content">
             <div class="education">
                 <h3>Pursuing PG Diploma in Machine Learning and Artificial Intelligence</h3>
                 <p>International Institute of Information Technology, Bangalore (IIIT B)</p>
@@ -111,8 +154,10 @@
             </div>
         </section>
 
-        <section>
+        <section class="section-heading">
             <h2>Projects</h2>
+        </section>
+        <section class="section-content">
             <div class="project">
                 <h3>Gesture Recognition</h3>
                 <p>Developed a hand gesture recognition project using Deep Learning models, including Transfer Learning and Generators.</p>
@@ -135,8 +180,10 @@
             </div>
         </section>
 
-        <section>
+        <section class="section-heading">
             <h2>Achievements</h2>
+        </section>
+        <section class="section-content">
             <p>Awarded by FIS management for reaching the finals in the INNOVATE48 event and recognized for outstanding contributions to automation.</p>
         </section>
 
